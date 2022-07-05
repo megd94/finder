@@ -1,0 +1,118 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+
+
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightblue;
+    color: white;
+    font-size: 1.25rem;
+
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+
+h1 {
+    font-size: 5rem;
+}
+header {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/food-header.jpg);
+    background-size: cover;
+    height: 1000px;
+    padding: 10px;
+    color: white;
+}
+
+
+.finder-offering {
+    background-color: lightblue;
+    padding: 20px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5rem;
+    margin: 20px;
+   flex-wrap: wrap;
+   
+}
+
+img {
+    height: 300px;
+    width: 400px;
+    padding: 1rem;
+    position: relative;
+
+}
+
+.site-intro button {
+   border-radius: 10px;
+   border: solid 1px white;
+   background-color: white;
+   padding: 20px;
+   font-size: 1rem;
+   font-family: 'Montserrat';
+}
+
+.site-intro button:hover {
+    background-color: lightblue;
+    border: solid 1px lightblue;
+    padding: 30px;
+    cursor: pointer;
+}
+
+.finder-offering h2 {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 3rem;
+}
+
+.card-description {
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;;
+}
+
+.meet-the-team h2 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.the-team {
+    padding-top: 70px;
+    padding-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.teammate img {
+    height: 500px;
+
+}
+
+.teammate h3,p {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: lightblue;
+}
